@@ -1,0 +1,28 @@
+.skeleton {
+  border-radius: 6px;
+  background: var(--skeleton-bg);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  &-img {
+    width: clamp(300px, 45vw, 750px);
+    height: 250px;
+  }
+  &-img:nth-child(2) {
+    width: clamp(200px, 25vw, 350px);
+    height: 200px;
+  }
+  &-info {
+    width: clamp(300px, 25vw, 400px);
+    height: 400px;
+  }
+  &-title {
+    width: 60%;
+    height: 35px;
+    margin: 0 auto 50px auto;
+  }
+  &-iframe {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+  }
+}

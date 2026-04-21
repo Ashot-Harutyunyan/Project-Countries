@@ -1,0 +1,26 @@
+.skeleton {
+  border-radius: 6px;
+  background: var(--skeleton-bg);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  &-img {
+    height: 160px;
+    margin-bottom: 12px;
+  }
+  &-title {
+    height: 20px;
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  &-line {
+    height: 14px;
+    width: 80%;
+    margin-bottom: 8px;
+  }
+  &-line-short {
+    width: 50%;
+  }
+}
+.place-skeleton {
+  pointer-events: none;
+}
